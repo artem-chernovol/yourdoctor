@@ -144,33 +144,38 @@ div#header > img {
 
 div#header span#lineOne {
 	display: block;
-	font-family: 'Cormorant SC', serif;
-	font-size: 30px;
-	padding-left: 120px;
-	padding-top: 120px;
+	font-family: 'Poiret One', cursive;
+	font-size: 32px;
+	padding-left: 155px;
+	padding-top: 145px;
 }
 
 div#header span#lineTwo {
 	display: block;
-	font-family: 'Cormorant SC', serif;
-	font-size: 32px;
-	padding-left: 20px;
+	font-family: 'Poiret One', cursive;
+	font-size: 34px;
+	padding-left: 55px;
 }
 
-div#mainContent {
+.textWrapper {
 	margin: 20px;
 }
 
-div#mainContent > span {
+.textWrapper > span {
 	display: block;
 	text-align: center;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 p.paragraph {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: justify;
 	line-height: 1.5;
+}
+p.paragraph > span {
+	padding-right: 10px;
+	font-size: 14px;
+	color: #0091ea;
 }
