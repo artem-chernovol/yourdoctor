@@ -177,5 +177,6 @@ p.paragraph {
 p.paragraph > span {
 	padding-right: 10px;
 	font-size: 14px;
+	vertical-align: middle;
 	color: #0091ea;
 }
