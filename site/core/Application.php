@@ -36,12 +36,4 @@ class Application
 				break;
 		}
 	}
-
-	/**
-	 * @return string
-	 */
-	static public function getConfig()
-	{
-		return require_once APPLICATION_ROOT . '/config/env/' . ENVIERONMENT . '.php';
-	}
 }
