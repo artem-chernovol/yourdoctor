@@ -77,7 +77,7 @@ div#push {
 header {
 	border-bottom: 1px solid #e0e0e0;
 	height: 40px;
-	background-color: #ffffff;
+	background-color: #f1f1f1;
 	margin-bottom: 10px;
 }
 
@@ -103,14 +103,20 @@ a.item:hover {
 a#facebook {
 	display: block;
 	float: right;
-	font-size: 32px;
+	font-size: 30px;
 	color: #e0e0e0;
 	margin-top: 5px;
+	outline: none;
 }
 
 a#facebook:hover {
 	color: #3b5998;
+	outline: none;
 	text-decoration: none;
+}
+
+a#facebook:focus {
+	outline: none;
 }
 
 span#pageWasNotFound {
