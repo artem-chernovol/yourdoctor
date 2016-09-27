@@ -3,54 +3,8 @@
 define('APPLICATION_ROOT', realpath(dirname(__DIR__)));
 define('DOCUMENT_ROOT', realpath(dirname(__DIR__ . '/public')));
 
-define('ENVIERONMENT', 'local');
-//define('ENVIERONMENT', 'development');
-
-//
-// LOCALIZATION
-//
-
-$localeList = ['en', 'ru'];
-$locale = null;
-$shouldRedirect = true;
-$url = $_SERVER['REQUEST_URI'];
-
-foreach ($localeList as $locale_) {
-	if (strpos($url, "/$locale_") === 0) {
-		$shouldRedirect = false;
-		$locale = $locale_;
-		break;
-	}
-}
-
-if (!$locale) {
-	if (!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-		$localeList_ = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
-		foreach ($localeList_ as $locale_) {
-			$locale2_ = substr($locale_, 0, 2);
-			if (in_array($locale2_, $localeList)) {
-				$locale = $locale2_;
-				break;
-			}
-		}
-	}
-}
-
-if (!$locale) {
-	$locale = 'en';
-}
-
-if ($shouldRedirect) {
-	$url = $url == '/' ? '' : $url;
-	$url = '/' . $locale . $url;
-	header('Location: ' . $url);
-	exit;
-}
-
-//<?php echo \Core\Content::getInstance()->renderFooterHtml()
 //require_once APPLICATION_ROOT . '/../Debug.php';
 require_once APPLICATION_ROOT . '/core/Application.php';
-require_once APPLICATION_ROOT . '/application/controller/Content.php';
 
 Application::processRoute();
 ?>
