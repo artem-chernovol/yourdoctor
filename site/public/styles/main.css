@@ -113,7 +113,7 @@ a#facebook {
 	float: right;
 	font-size: 30px;
 	color: #3b5998;
-	margin-top: 5px;
+	padding-top: 5px;
 	outline: none;
 }
 
@@ -250,6 +250,5 @@ p.paragraph > span {
 	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 100px;
-	border: 1px solid #0091ea;
+	margin-bottom: 30px;
 }
