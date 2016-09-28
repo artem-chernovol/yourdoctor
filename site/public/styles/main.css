@@ -207,12 +207,8 @@ p.paragraph > span {
 	text-align: center;
 	float: left;
 	width: 263px;
-	height: 220px;
+	height: 190px;
 	margin-right: 1px;
-}
-
-.contacts:last-of-type {
-	margin-right: 0;
 }
 
 .contacts > i {
@@ -229,13 +225,13 @@ p.paragraph > span {
 .line {
 	display: block;
 	color: #424242;
-	padding-top: 10px;
+	padding-top: 3px;
 	font-size: 17px;
 }
 
 .e-mail {
 	display: block;
-	padding-top: 10px;
+	padding-top: 3px;
 	font-size: 17px;
 	color: #424242;
 }
