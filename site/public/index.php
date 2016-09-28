@@ -18,6 +18,7 @@ Application::processRoute();
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 		<link rel="stylesheet" href="/styles/reset.css">
 		<link rel="stylesheet" href="/styles/main.css">
+		<link rel="stylesheet" media="screen and (max-width: 480px)" href="/styles/mobile.css"/>
 	</head>
 	<body>
 		<div id="contentAndHeader">

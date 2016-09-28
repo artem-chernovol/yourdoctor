@@ -142,10 +142,6 @@ div#content {
 	MAIN PAGE
 ================================================== */
 
-div#mainPage {
-
-}
-
 div#header {
 	height: 400px;
 	width: 100%;
@@ -154,6 +150,7 @@ div#header {
 
 div#header > img {
 	float: right;
+	height: 400px;
 }
 
 div#header span#lineOne {
