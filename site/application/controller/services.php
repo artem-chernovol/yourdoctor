@@ -4,3 +4,4 @@
 	<p class="paragraph"><span class="fa fa-circle"></span>Дерматоскопия и удаление доброкачественных образований кожи (мозолей, папилом, бородавок, невусов и т.п.)</p>
 	<p class="paragraph"><span class="fa fa-circle"></span>Вызов врача на дом</p>
 </div>
+<div class="clear"></div>

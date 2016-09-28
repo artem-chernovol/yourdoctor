@@ -10,7 +10,7 @@ body {
 	background-color: #fafafa;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	line-height: 1.2;
+	line-height: 1.5;
 	height: 100%;
 }
 
@@ -42,6 +42,14 @@ a:hover {
 	display: block;
 }
 
+span#pageWasNotFound {
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
 /*
 	MAIN SITE
 ================================================== */
@@ -51,6 +59,12 @@ div#contentAndHeader {
 	height: auto !important;
 	margin: 0 auto -40px;
 	width: 100%;
+}
+
+.contentWrapper {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
@@ -63,12 +77,6 @@ footer {
 
 div#push {
 	height: 40px;
-}
-
-.contentWrapper {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* Header
@@ -104,27 +112,18 @@ a#facebook {
 	display: block;
 	float: right;
 	font-size: 30px;
-	color: #e0e0e0;
+	color: #3b5998;
 	margin-top: 5px;
 	outline: none;
 }
 
 a#facebook:hover {
-	color: #3b5998;
 	outline: none;
 	text-decoration: none;
 }
 
 a#facebook:focus {
 	outline: none;
-}
-
-span#pageWasNotFound {
-	display: block;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	font-size: 16px;
-	text-align: center;
 }
 
 /* Content
@@ -139,8 +138,17 @@ div#content {
 	background-color: white;
 }
 
+/*
+	MAIN PAGE
+================================================== */
+
+div#mainPage {
+
+}
+
 div#header {
 	height: 400px;
+	width: 100%;
 	border-bottom: 1px solid #e0e0e0;
 }
 
@@ -153,7 +161,7 @@ div#header span#lineOne {
 	font-family: 'Poiret One', cursive;
 	font-size: 32px;
 	padding-left: 155px;
-	padding-top: 145px;
+	padding-top: 135px;
 }
 
 div#header span#lineTwo {
@@ -174,16 +182,70 @@ div#header span#lineTwo {
 }
 
 p.paragraph {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	font-size: 17px;
 	text-align: justify;
-	line-height: 1.5;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+/*
+	SERVICES PAGE
+================================================== */
 
 p.paragraph > span {
 	padding-right: 10px;
 	font-size: 14px;
-	vertical-align: middle;
 	color: #0091ea;
+}
+
+/*
+	CONTACTS PAGE
+================================================== */
+
+.contacts {
+	padding-top: 10px;
+	text-align: center;
+	float: left;
+	width: 263px;
+	height: 220px;
+	margin-right: 1px;
+}
+
+.contacts:last-of-type {
+	margin-right: 0;
+}
+
+.contacts > i {
+	font-size: 18px;
+	color: #0091ea;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.line {
+	display: block;
+	color: #424242;
+	padding-top: 10px;
+	font-size: 17px;
+}
+
+.e-mail {
+	display: block;
+	padding-top: 10px;
+	font-size: 17px;
+	color: #424242;
+}
+
+.e-mail:hover {
+	text-decoration: underline;
+	cursor: text;
+}
+
+#googleMap {
+	width: 800px;
+	height: 400px;
 }
