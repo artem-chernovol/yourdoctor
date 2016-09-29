@@ -62,7 +62,8 @@ div#contentAndHeader {
 }
 
 .contentWrapper {
-	width: 320px;
+	width: 400px;
+	background-color: #f1f1f1;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -133,6 +134,7 @@ div#content {
 	border: 1px solid #e0e0e0;
 	margin-left: auto;
 	margin-right: auto;
+	width: 400px;
 	background-color: white;
 }
 
@@ -153,17 +155,18 @@ div#header > img {
 div#header span#lineOne {
 	display: block;
 	font-family: 'Poiret One', cursive;
-	font-size: 12px;
+	font-size: 16px;
 	padding-left: 50px;
 	padding-top: 70px;
+	font-weight: bold;
 }
 
 div#header span#lineTwo {
 	display: block;
 	font-family: 'Poiret One', cursive;
-	font-size: 12px;
-	padding-left: 15px;
-
+	font-size: 18px;
+	padding-left: 10px;
+	font-weight: bold;
 }
 
 .textWrapper {
@@ -201,7 +204,7 @@ p.paragraph > span {
 .contacts {
 	text-align: center;
 	float: left;
-	width: 320px;
+	width: 400px;
 	height: 100%;
 }
 
@@ -235,13 +238,13 @@ p.paragraph > span {
 
 #googleMap {
 	padding-top: 20px;
-	width: 300px;
+	width: 350px;
 	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #googleMap > iframe {
-	width: 300px;
+	width: 350px;
 	height: 300px;
 }
