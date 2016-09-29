@@ -17,5 +17,5 @@
 		<a class="item active" href="/contacts">Контакты</a>
 		<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
 	<?php endif ?>
+	<div class="clear"></div>
 </div>
-<div class="clear"></div>
