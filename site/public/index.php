@@ -35,9 +35,7 @@ Application::processRoute();
 			<div id="push"></div>
 		</div>
 		<footer>
-			<div class="contentWrapper">
-				&copy;&nbsp;2016
-			</div>
+			&copy;&nbsp;2016
 		</footer>
 	</body>
 </html>
