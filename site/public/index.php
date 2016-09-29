@@ -3,12 +3,11 @@
 define('APPLICATION_ROOT', realpath(dirname(__DIR__)));
 define('DOCUMENT_ROOT', realpath(dirname(__DIR__ . '/public')));
 
-//require_once APPLICATION_ROOT . '/../Debug.php';
 require_once APPLICATION_ROOT . '/core/Application.php';
 
 Application::processRoute();
 ?>
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
@@ -19,7 +18,7 @@ Application::processRoute();
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 		<link rel="stylesheet" href="/styles/reset.css">
 		<link rel="stylesheet" href="/styles/main.css">
-		<link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 800px)" href="/styles/mobile.css"/>
+		<link rel="stylesheet" media="screen and (min-width: 200px) and (max-width: 800px)" href="/styles/mobile.css"/>
 	</head>
 	<body>
 		<div id="contentAndHeader">
@@ -37,7 +36,7 @@ Application::processRoute();
 		</div>
 		<footer>
 			<div class="contentWrapper">
-				2016
+				&copy;&nbsp;2016
 			</div>
 		</footer>
 	</body>
