@@ -1,1 +1,1 @@
-<span id="pageWasNotFound">Page was not found</span>
+<span id="pageWasNotFound">Сраница не найдена</span>

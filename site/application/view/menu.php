@@ -1,3 +1,8 @@
+<div id="main">
+	<img src="/images/main.png">
+	<h1>Ваш врач дерматолог</h1>
+	<h2>Земляной Сергей Владимирович</h2>
+</div>
 <div id="menu">
 	<?php if (Application::$route == '/'): ?>
 		<a class="item active" href="/">Главная</a>
@@ -17,5 +22,5 @@
 		<a class="item active" href="/contacts">Контакты</a>
 		<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
 	<?php endif ?>
-	<div class="clear"></div>
 </div>
+<div class="clear"></div>

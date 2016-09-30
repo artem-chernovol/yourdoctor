@@ -1,21 +1,23 @@
-<div class="contacts">
-	<i class="fa fa-phone"></i><span class="title">Контакты</span>
-	<span class="line">(067) 454-21-99</span>
-	<span class="line">(050) 451-53-08 </span>
-	<span class="e-mail">fz_novik@mail.ru</span>
-</div>
-<div class="contacts">
-	<i class="fa fa-clock-o"></i><span class="title">График работы</span>
-	<span class="line">Пн-Пт: с 16.00 до 18.00</span>
-	<span class="line">Сб: с 10.00 до 12.00</span>
-	<span class="line">Вс: выходной </span>
-	<span class="line">Предварительная запись обязательна</span>
-</div>
-<div class="contacts">
-	<i class="fa fa-map-marker"></i><span class="title">Адрес</span>
-	<span class="line">г. Новомосковск,</span>
-	<span class="line">ул. Гетьманская,</span>
-	<span class="line">дом 100</span>
+<div id="contactsWrapper">
+	<div class="contacts">
+		<i class="fa fa-phone"></i><span class="title">Контакты</span>
+		<span class="line">(067) 454-21-99</span>
+		<span class="line">(050) 451-53-08 </span>
+		<span class="e-mail">fz_novik@mail.ru</span>
+	</div>
+	<div class="contacts">
+		<i class="fa fa-clock-o"></i><span class="title">График работы</span>
+		<span class="line">Пн-Пт: с 16.00 до 18.00</span>
+		<span class="line">Сб: с 10.00 до 12.00</span>
+		<span class="line">Вс: выходной </span>
+		<span class="line">Предварительная запись обязательна</span>
+	</div>
+	<div class="contacts">
+		<i class="fa fa-map-marker"></i><span class="title">Адрес</span>
+		<span class="line">г. Новомосковск,</span>
+		<span class="line">ул. Гетьманская,</span>
+		<span class="line">дом 100</span>
+	</div>
 </div>
 <div class="clear"></div>
 <div id="googleMap">

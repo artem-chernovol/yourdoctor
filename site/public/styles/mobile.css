@@ -54,7 +54,7 @@ span#pageWasNotFound {
 	MAIN SITE
 ================================================== */
 
-div#contentAndHeader {
+div#mainSite {
 	min-height: 100%;
 	height: auto !important;
 	margin: 0 auto -40px;
@@ -73,19 +73,19 @@ footer {
 	font-size: 14px;
 	color: #9e9e9e;
 	text-align: center;
+	background-color: #fafafa;
 }
 
 div#push {
 	height: 40px;
 }
 
-/* Header
+/* MENU
 -------------------------------------------------- */
 
-header {
+div#menu {
 	height: 40px;
 	background-color: #f1f1f1;
-	margin-bottom: 10px;
 }
 
 a.item {
@@ -108,12 +108,12 @@ a.item:hover {
 }
 
 a#facebook {
-	display: inline-block;
+	display: block;
 	float: right;
-	padding-right: 5px;
 	font-size: 30px;
 	color: #3b5998;
 	padding-top: 5px;
+	padding-right: 5px;
 	outline: none;
 }
 
@@ -131,8 +131,6 @@ a#facebook:focus {
 
 div#content {
 	border: 1px solid #e0e0e0;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: white;
 }
 
@@ -140,69 +138,100 @@ div#content {
 	MAIN PAGE
 ================================================== */
 
-div#header {
+div#main {
+	display: block;
 	height: 200px;
 	border-bottom: 1px solid #e0e0e0;
 }
 
-div#header > img {
+div#main > img {
 	float: right;
 	height: 200px;
 }
 
-div#header span#lineOne {
+div#main > h1 {
 	display: block;
 	font-family: 'Poiret One', cursive;
-	font-size: 12px;
-	padding-left: 50px;
-	padding-top: 70px;
+	font-size: 16px;
+	padding-top: 65px;
+	padding-left: 65px;
 }
 
-div#header span#lineTwo {
+div#main > h2 {
 	display: block;
 	font-family: 'Poiret One', cursive;
-	font-size: 12px;
+	font-size: 14px;
 	padding-left: 15px;
-	font-weight: bold;
 }
 
 .textWrapper {
-	padding: 10px;
-	display: block;
+	width: 320px;
+	margin: 15px auto 15px auto;
 }
 
-.textWrapper > span {
+.textWrapper > h3 {
+	font-size: 16px;
 	display: block;
 	text-align: center;
-	font-size: 16px;
+	padding-bottom: 10px;
 }
 
-p.paragraph {
-	font-size: 16px;
-	text-align: justify;
-	padding-top: 10px;
+.textWrapper > p {
+	font-size: 18px;
+	text-align: left;
 	padding-bottom: 10px;
+}
+
+.textWrapper p:last-child {
+	padding-bottom: 0;
+}
+
+.textWrapper h3:last-child {
+	padding-bottom: 0;
 }
 
 /*
 	SERVICES PAGE
 ================================================== */
 
-p.paragraph > span {
-	padding-right: 10px;
-	font-size: 14px;
+ul {
+	width: 320px;
+	margin: 15px auto 15px auto;
+}
+
+li {
+	font-size: 16px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+li > span {
+	padding-right: 5px;
+	font-size: 10px;
 	color: #0091ea;
+}
+
+li:last-child {
+	padding-bottom: 0;
 }
 
 /*
 	CONTACTS PAGE
 ================================================== */
 
-.contacts {
+#contactsWrapper {
 	text-align: center;
-	float: left;
 	width: 320px;
-	height: 100%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.contacts {
+	float: left;
+	width: 250px;
+	height: 200px;
 }
 
 .contacts > i {
@@ -212,20 +241,22 @@ p.paragraph > span {
 
 .title {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 	padding-left: 10px;
 }
 
 .line {
 	display: block;
 	color: #424242;
-	font-size: 16px;
+	padding-top: 5px;
+	font-size: 18px;
 }
 
 .e-mail {
 	display: block;
-	font-size: 16px;
 	color: #424242;
+	padding-top: 5px;
+	font-size: 18px;
 }
 
 .e-mail:hover {
@@ -234,14 +265,14 @@ p.paragraph > span {
 }
 
 #googleMap {
-	padding-top: 20px;
-	width: 300px;
-	height: 300px;
+	width: 320px;
+	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
 }
 
 #googleMap > iframe {
-	width: 300px;
-	height: 300px;
+	width: 320px;
+	height: 200px;
 }
