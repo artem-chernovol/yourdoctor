@@ -11,17 +11,15 @@ Application::processRoute();
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
 		<title>YourDoctor</title>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="/styles/reset.css">
 		<link rel="stylesheet" href="/styles/main.css">
-		<link rel="stylesheet" media="screen and (max-width: 320px)" href="/styles/mobile.css"/>
 	</head>
 	<body>
-		<div id="mainSite">
+		<div id="mainWrapper">
 			<div class="contentWrapper">
 				<div id="content">
 					<?php require_once APPLICATION_ROOT . '/application/view/menu.php' ?>
