@@ -4,21 +4,39 @@
 	<h2>Земляной Сергей Владимирович</h2>
 	<div id="menu">
 		<?php if (Application::$route == '/'): ?>
-			<a class="item active" href="/">Главная</a>
-			<a class="item" href="/services">Услуги</a>
-			<a class="item" href="/contacts">Контакты</a>
+			<span class="paddingRight10px"></span><a class="item active" href="/">Главная
+				<i class="fa fa-user-md"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item" href="/services">Услуги
+				<i class="fa fa-medkit"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item" href="/contacts">Контакты
+				<i class="fa fa-phone"></i>
+			</a>
 			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
 		<?php endif ?>
 		<?php if (Application::$route == '/services'): ?>
-			<a class="item" href="/">Главная</a>
-			<a class="item active" href="/services">Услуги</a>
-			<a class="item" href="/contacts">Контакты</a>
+			<span class="paddingRight10px"></span><a class="item" href="/">Главная
+				<i class="fa fa-user-md"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item active" href="/services">Услуги
+				<i class="fa fa-medkit"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item" href="/contacts">Контакты
+				<i class="fa fa-phone"></i>
+			</a>
 			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
 		<?php endif ?>
 		<?php if (Application::$route == '/contacts'): ?>
-			<a class="item" href="/">Главная</a>
-			<a class="item" href="/services">Услуги</a>
-			<a class="item active" href="/contacts">Контакты</a>
+			<span class="paddingRight10px"></span><a class="item" href="/">Главная
+				<i class="fa fa-user-md"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item" href="/services">Услуги
+				<i class="fa fa-medkit"></i>
+			</a>
+			<span class="paddingRight10px"></span><a class="item active" href="/contacts">Контакты
+				<i class="fa fa-phone"></i>
+			</a>
 			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
 		<?php endif ?>
 	</div>
