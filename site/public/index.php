@@ -14,7 +14,7 @@ Application::processRoute();
 		<title>YourDoctor</title>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<link rel="stylesheet" href="/styles/reset.css">
 		<link rel="stylesheet" href="/styles/main.css">
 	</head>
