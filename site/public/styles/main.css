@@ -9,8 +9,8 @@ body {
 	color: #212121;
 	background-color: #fafafa;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
+	font-size: 18px;
+	line-height: 1.2;
 	height: 100%;
 }
 
@@ -49,6 +49,11 @@ span#pageWasNotFound {
 	text-align: center;
 }
 
+.paddingRight10px {
+	display: inline-block;
+	padding-right: 10px;
+}
+
 /*
 	MAIN SITE
 ================================================== */
@@ -77,9 +82,9 @@ div#push {
 	height: 40px;
 }
 
-span.paddingRight5px {
+i {
 	display: inline-block;
-	padding-right: 5px;
+	color: #0091ea;
 }
 
 /* MENU
@@ -93,7 +98,7 @@ div#menu {
 a.item {
 	display: block;
 	float: left;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 40px;
 	text-align: center;
 	padding-left: 15px;
@@ -145,13 +150,13 @@ div#content {
 
 div#main {
 	display: block;
-	height: 400px;
+	height: 350px;
 	border-bottom: 1px solid #e0e0e0;
 }
 
 div#main > img {
 	float: right;
-	height: 400px;
+	height: 350px;
 }
 
 div#main > h1 {
@@ -159,7 +164,7 @@ div#main > h1 {
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
 	text-align: center;
-	padding-top: 140px;
+	padding-top: 110px;
 }
 
 div#main > h2 {
@@ -175,14 +180,12 @@ div#main > h2 {
 }
 
 .textWrapper > h3 {
-	font-size: 18px;
 	display: block;
 	text-align: center;
 	padding-bottom: 10px;
 }
 
 .textWrapper > p {
-	font-size: 18px;
 	text-align: left;
 	padding-bottom: 10px;
 }
@@ -205,15 +208,8 @@ ul {
 }
 
 li {
-	font-size: 18px;
 	text-align: left;
 	padding-bottom: 10px;
-}
-
-li > span {
-	display: block;
-	padding-right: 20px;
-	color: #0091ea;
 }
 
 li:last-child {
@@ -227,41 +223,39 @@ li:last-child {
 #contactsWrapper {
 	text-align: center;
 	width: 750px;
-	height: 190px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
+	margin: 25px auto 25px auto;
 }
 
 .contacts {
 	float: left;
 	width: 250px;
-	height: 200px;
-}
-
-.contacts > i {
-	font-size: 18px;
-	color: #0091ea;
+	height: 185px;
 }
 
 .title {
+	display: inline-block;
 	font-weight: bold;
-	font-size: 18px;
-	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .line {
 	display: block;
 	color: #424242;
-	padding-top: 5px;
-	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.line:last-child {
+	padding-bottom: 0;
 }
 
 .e-mail {
 	display: block;
 	color: #424242;
-	padding-top: 5px;
-	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.e-mail:last-child {
+	padding-bottom: 0;
 }
 
 .e-mail:hover {
@@ -270,14 +264,12 @@ li:last-child {
 }
 
 #googleMap {
-	width: 775px;
-	height: 400px;
+	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
 }
 
 #googleMap > iframe {
-	width: 775px;
+	width: 750px;
 	height: 400px;
 }
