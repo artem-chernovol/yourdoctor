@@ -13,7 +13,9 @@
 			<span class="paddingRight10px"></span><a class="item" href="/contacts">Контакты
 				<i class="fa fa-phone"></i>
 			</a>
-			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
+			<span class="paddingRight10px"></span><a class="item" href="https://www.facebook.com/fz.novik?fref=ts" target="_blank">Facebook
+				<i class="fa fa-facebook"></i>
+			</a>
 		<?php endif ?>
 		<?php if (Application::$route == '/services'): ?>
 			<span class="paddingRight10px"></span><a class="item" href="/">Главная
@@ -25,7 +27,9 @@
 			<span class="paddingRight10px"></span><a class="item" href="/contacts">Контакты
 				<i class="fa fa-phone"></i>
 			</a>
-			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
+			<span class="paddingRight10px"></span><a class="item" href="https://www.facebook.com/fz.novik?fref=ts" target="_blank">Facebook
+				<i class="fa fa-facebook"></i>
+			</a>
 		<?php endif ?>
 		<?php if (Application::$route == '/contacts'): ?>
 			<span class="paddingRight10px"></span><a class="item" href="/">Главная
@@ -37,7 +41,9 @@
 			<span class="paddingRight10px"></span><a class="item active" href="/contacts">Контакты
 				<i class="fa fa-phone"></i>
 			</a>
-			<a id="facebook" target="_blank" href="https://www.facebook.com/fz.novik?fref=ts" class="fa fa-facebook-square"></a>
+			<span class="paddingRight10px"></span><a class="item" href="https://www.facebook.com/fz.novik?fref=ts" target="_blank">Facebook
+				<i class="fa fa-facebook"></i>
+			</a>
 		<?php endif ?>
 	</div>
 </div>
